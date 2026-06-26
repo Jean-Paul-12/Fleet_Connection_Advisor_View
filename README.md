@@ -143,7 +143,7 @@ Si el backend no está disponible, la UI muestra un mensaje de error indicando q
 ## 📁 Estructura del proyecto
 
 ```
-frontend/
+Fleet_Connection_Advisor_View/
 ├── index.html                 # Punto de entrada HTML (título 🌦️ + favicon)
 ├── vite.config.js             # Configuración Vite y proxy /api
 ├── vercel.json                # Rewrites SPA para despliegue en Vercel
