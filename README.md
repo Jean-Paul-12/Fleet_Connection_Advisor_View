@@ -37,15 +37,16 @@ Dashboard web para **inteligencia de inversión en flota** impulsada por el clim
 
 - **Node.js** 18 o superior
 - **npm** 9 o superior
-- Backend Flask corriendo en `http://localhost:5000` (ver [`../backend/README.md`](../backend/README.md))
+- Backend Flask corriendo en `http://localhost:5000` (repo [Fleet_Connection_Advisor](https://github.com/Jean-Paul-12/Fleet_Connection_Advisor))
 
 ---
 
 ## 🚀 Instalación y ejecución
 
 ```bash
-# 1. Entrar al directorio del frontend
-cd frontend
+# 1. Clonar este repositorio y entrar a la carpeta
+git clone https://github.com/Jean-Paul-12/Fleet_Connection_Advisor_View.git
+cd Fleet_Connection_Advisor_View
 
 # 2. Instalar dependencias
 npm install
