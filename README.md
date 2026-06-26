@@ -2,7 +2,7 @@
 
 Dashboard web para **inteligencia de inversión en flota** impulsada por el clima. Permite evaluar el impacto meteorológico en la operación de couriers, visualizar KPIs financieros, recomendaciones ejecutivas y la ubicación geográfica de cada ciudad consultada.
 
-> Parte del proyecto **Fleet Connection Advisor**. El backend (Flask + Supabase + WeatherAPI) vive en la carpeta `../backend`.
+> Backend en repo separado: [Fleet_Connection_Advisor](https://github.com/Jean-Paul-12/Fleet_Connection_Advisor)
 
 ---
 
@@ -175,9 +175,9 @@ frontend/
 
 El frontend está preparado para **Vercel**:
 
-1. Conecta el repositorio en Vercel con **Root Directory** = `frontend`.
-2. Configura `VITE_API_BASE_URL` con la URL pública del backend.
-3. El archivo `vercel.json` redirige todas las rutas a `index.html` (SPA).
+1. Conecta el repositorio **Fleet_Connection_Advisor_View** en Vercel (raíz del repo, sin subcarpeta).
+2. Configura `VITE_API_BASE_URL=/api` (el proxy en `vercel.json` reenvía a Render).
+3. El archivo `vercel.json` también redirige rutas SPA a `index.html`.
 
 Build command: `npm run build`  
 Output directory: `dist`
